@@ -43,8 +43,8 @@ public class MainActivity extends Activity {
     }
 
     private int testTimes = 1; // 整体测试次数，取其均值。
-    private int batchCount = 10000; // 10万条数据 测试批量
-    private int singleCount = 100; // 1千条数据 测试循环单个操作
+    private int batchCount = 100000; // 10万条数据 测试批量
+    private int singleCount = 1000; // 1千条数据 测试循环单个操作
 
     public void clickGreenDAO(View view) {
         new Thread() {

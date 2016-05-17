@@ -11,7 +11,7 @@ import com.litesuits.orm.db.enums.AssignType;
 /**
  * Entity mapped to table "NOTE".
  */
-@Table("lite-note")
+@Table("lite_note")
 public class Note {
 
     @Column("_id")
